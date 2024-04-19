@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar Verticale</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #87ceeb;
+        border-radius: 40px;
+        padding: 40px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-btn {
+        display: block;
+        width: 300px;
+        padding: 20px;
+        margin: 20px 0;
+        text-align: center;
+        background-color: #ffcccb;
+        border-radius: 20px;
+        transition: background-color 0.3s;
+				text-decoration: none; /* Rimuove la sottolineatura */
+        color: #333; /* Colore del testo normale */
+        font-size: 16px; /* Dimensione del carattere normale */
+    }
+
+    .nav-btn:hover {
+        background-color: #ffb6c1;
+        color: #fff; /* Cambia il colore del testo al passaggio del mouse */
+        font-size: 18px; /* Aumenta la dimensione del carattere al passaggio del mouse */
+ 
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="nav-btn">Home</a>
+        <a href="html5_solux.html" class="nav-btn">Tipi di campi</a>
+        <a href="carnevale-rg-contatti_GET.html" class="nav-btn">Contatti GET</a>
+        <a href="carnevale-rg-contatti_POST.html" class="nav-btn">Contatti POST</a>
+		<a href="Form-SendMail-1.html" class="nav-btn">Invio dati a mail, Es. 1</a>
+        <a href="Form-SendMail-2.html" class="nav-btn">Invio dati a mail, Es. 2</a>
+    </div>
+</body>
+</html>

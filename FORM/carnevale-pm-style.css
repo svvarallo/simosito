@@ -1,0 +1,126 @@
+body {
+		background-image: url(img/carnevale-sfondo.jpg);
+		background-repeat: repeat;
+		background-color: #d2655e;
+	}
+
+nav {
+	border: 2px solid gray; 
+	width: 100%;
+	font: 90% Verdana,sans-serif;
+	}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	}
+
+nav li {
+    float: left;
+	width: 150px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #d2655e;
+}
+
+nav li ul.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #e9cba5;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+nav li:hover ul.dropdown {
+    display: block;
+}
+
+nav li ul.dropdown li {
+    float: none;
+}
+
+nav li ul.dropdown li a {
+    display: block;
+    color: black;
+}
+
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bonheur Royale';
+  src: url('fonts/BonheurRoyale-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Quantico Regular';
+  src: url('fonts/Quantico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Anton Regular';
+  src: url('fonts/Anton-Regular.ttf') format('truetype');
+}
+
+
+#titolo {
+	height: 40px;
+	width: 100%;
+	font: bold 250% 'Bonheur Royale', Verdana, sans-serif;
+	color: #FFFFFF; 
+	border: 2px solid gray;
+	background-color: #dc5229;
+	text-align: center;
+	}
+	
+	h2 {
+  font: bold 100% 'Bonheur Royale', Verdana, sans-serif;
+  color: #898989;
+}
+	
+	.lato-maschera {
+			width: 470px;
+			height: 520px;
+	}
+	
+		.qr-maschera {
+			width: 200px;
+			height: 200px;
+	}
+
+	#mask-info {
+	float: left;
+	padding: 5px 5px;
+	font: 100% Verdana,sans-serif;
+	color: #000000;
+	background-color: #fff4aa;
+	margin-top: 20px;
+	}
+	
+#contenuto {
+	float: left;
+	padding: 3px 6px;
+	font: 24px Quantico Regular, Verdana,sans-serif;
+	color: #000000;
+	background-color: #fff4aa;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 45%;
+	}
+	
+
+	
+
